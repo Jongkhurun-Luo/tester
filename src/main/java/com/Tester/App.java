@@ -7,5 +7,10 @@ package com.Tester;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Mac Eclipse Maven Git Selenium Safari");
+		runAdd();
+	}
+
+	public static void runAdd() {
+		new Add();
 	}
 }
